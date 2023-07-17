@@ -1,0 +1,97 @@
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+p {
+  font-family: 'Lato', sans-serif !important;
+  color: black !important;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+  font-family: 'Raleway', sans-serif !important;
+  color: black !important;
+}
+
+h4 {
+  font-size: 56px !important;
+}
+
+
+.nav-link {
+  margin-right: 50px !important;
+  border: 1px solid white;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  border: 1px solid black;
+}
+
+.jumbotron {
+  background-color: rgb(43,0,71) !important;
+}
+
+.jumbotron h1, .jumbotron p {
+  color: white !important;
+}
+
+.research, .iteration {
+  display: grid;
+  grid-template-rows:1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 32px;
+}
+
+.sectionHead{
+  padding: 32px;
+}
+
+.card {
+  margin-bottom: 50px;
+  height: 350px !important;
+  border: 1px solid rgb(43,0,71);
+}
+
+.card-img-top {
+  max-height: 318px;
+  object-fit: contain;
+}
+
+.card-img-overlay {
+  background-color: white;
+  height: 120px;
+  position: absolute;
+  top: 198px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+.thick {
+  font-weight: 700;
+}
+
+.lead {
+  border: 1px solid white;
+  padding: 32px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn {
+  color: rgb(43,0,71);
+  font-family: 'Lato', sans-serif !important;
+  font-size: 24px;
+  border: 1px solid rgb(43,0,71);
+}
+
+.btn:hover {
+  color: white;
+  background-color: rgb(43,0,71);
+  border: 1px solid white;
+}
+
+

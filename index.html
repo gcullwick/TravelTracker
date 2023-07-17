@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UX/UI Homework 20</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!--Nav Bar component-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Travel Planning App Case Study</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#intro">Introduction<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#research">Research</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#problem">Problem</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#iteration">Iteration & Testing</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#proto">Prototype</a>
+      </li>
+      <!--<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>-->
+      <!--<li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>-->
+    </ul>
+    <!--<form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>-->
+  </div>
+</nav>
+
+<!--Introduction Jumbotron Component-->
+
+<div class="jumbotron" id="intro">
+  <h1 class="display-4">Travel Tracker</h1>
+  <p class="lead">The world has changed a lot since the pandemic, in particular, travel. <br>There is now far more information you need to be aware of and carry with you while moving around and technology is yet to catch up with this.</p>
+  <hr class="my-4">
+  <p>There is currently a gap in the market for something to help with this new problem that I was looking to solve.</p>
+</div>
+
+<!--Research - Cards-->
+
+<h4 class="sectionHead" id="research">Research</h4>
+<div class="research">
+  <div class="card" style="width: 24rem; height: 320px;">
+    <img class="card-img-top" src="/images/swot.jpg" alt="Competitor Analysis">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Competitor Analysis</h5>
+      <p class="card-text">SWOT analysis was carried out on 3 direct, and 2 indirect competitors.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 24rem; height: 320px;">
+    <img class="card-img-top" src="images/interviews.jpg" alt="Card image cap">
+    <div class="card-img-overlay">
+      <h5 class="card-title">User Interviews</h5>
+      <p class="card-text">A total of 5 interviews were carried out in a semi-strutctured format, each with 10 questions and lasted around 10 minutes.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 24rem; height: 320px;">
+    <img class="card-img-top" src="images/persona.jpg" alt="Card image cap">
+    <div class="card-img-overlay">
+      <h5 class="card-title">User Persona</h5>
+      <p class="card-text">From the information gathered during the interviews, a user persona was generated to be used going forward in the design process.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 24rem; height: 320px;">
+    <img class="card-img-top" src="images/affinity.jpg" alt="Card image cap">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Affinity Diagram</h5>
+      <p class="card-text">Interview responses were sorted, grouped and categorised to produce an affinity diagram that could be used during iteration.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 24rem; height: 320px;">
+    <img class="card-img-top" src="images/empathy.jpg" alt="Card image cap">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Empathy Map</h5>
+      <p class="card-text">An empathy map was prodcued to gather examples of what users may be thinking, doing, saying or feeling during their current trip planning process.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 24rem; height: 320px;">
+    <img class="card-img-top" src="images/matrix.jpg" alt="Card image cap">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Feature Prioritisation Matrix</h5>
+      <p class="card-text">Any features, or potential ones, mentioned during the interview process were added to a prioritisation matrix to show how users would value each feature compared to how difficult they would be to impliment </p>
+    </div>
+  </div>
+</div>
+
+<!--Problem statement Jumbotron-->
+<div class="jumbotron" id="problem">
+  <h1 class="display-4">The Problem</h1>
+  <p class="lead">During our interviews, we discovered that <span class="thick">some of the biggest frustrations are having to look at multiple sources when booking a holiday and the ways you have transport your plans/itinerary with you while away.</span><br><br>We believe that finding <span class="thick">a way to search for parts of your holiday and create an itinerary in one app will reduce the stress to the user both when planning the holiday and actually experiencing it.</span><br><br>We might do this by <span class="thick">having the app help you search multiple places and automatically import bookings into an itinerary you can store on your phone so you easily access it while travelling. This will make the planning process much easier and might increase the frequency at which they travel.</span></p>
+  <hr class="my-4">
+  <p>The statement above is the problem being taken forward to solve in the ideation stage of the project.</p>
+</div>
+
+<!--Iteration - Cards-->
+<h4 class="sectionHead" id="iteration">Iteration</h4>
+<div class="iteration">
+  <div class="card" style="width: 24rem; height: 320px;">
+    <img class="card-img-top" src="images/flow.jpg" alt="Card image cap">
+    <div class="card-img-overlay">
+      <h5 class="card-title">User Flow</h5>
+      <p class="card-text">I made a user flow to give the process the user would go through when using the app to decide which parts needed making for the prototype.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 24rem; height: 320px;">
+    <img class="card-img-top" src="images/paper.jpg" alt="Card image cap">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Paper Prototype</h5>
+      <p class="card-text">Initial prototypes were sketched out on paper to get a starting point quickly that could then be built from digitally.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 24rem; height: 320px;">
+    <img class="card-img-top" src="images/test1.jpg" alt="Card image cap">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Testing Round 1</h5>
+      <p class="card-text">Guerrilla user testing was carried out on the initial prototype to give some starting improvemnts to make while converting to a digital prototype.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 24rem; height: 320px;">
+    <img class="card-img-top" src="images/lofi.jpg" alt="Card image cap">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Lo-Fi Prototype</h5>
+      <p class="card-text">These changes were made as the prototype became a lo-fi version to test further.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 24rem; height: 320px;">
+    <img class="card-img-top" src="images/test.jpg" alt="Card image cap">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Testing Round 2</h5>
+      <p class="card-text">The lo-fi prototype was put through another round of guerrilla testing and a number of changes to be mare were generated.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 24rem; height: 320px;">
+    <img class="card-img-top" src="images/iterate.jpg" alt="Card image cap">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Iterate</h5>
+      <p class="card-text">The changes were implimented and the final hi-fi prototype was created having receieved a total of 2 rounds of testing during the process.</p>
+    </div>
+  </div>
+</div>
+
+<!--Prototype Jumbotron-->
+<div class="jumbotron proto" id="proto">
+  <div class="row">
+    <div class="col">
+      <h1 class="display-4">Final Prototype</h1>
+      <p class="lead">This is a GIF of some of the screens from the final prototype. It was built using Figma and is clickable to complete the user flow but lacks keyboard functionality. There is also use of the Material Design system in the prototype to try make it feel more like an actual application.</p>
+      <hr class="my-4">
+      <p>Below are the links to the clickable prototype, Figma file and a full presentation that goes into more detail in each section.</p>
+      <div class="links">
+        <a href="https://www.figma.com/proto/8aFo4yIY6J8tV0dc76czzc/Travel-App?page-id=223%3A4098&node-id=223-4099&viewport=-3308%2C418%2C0.89&scaling=scale-down&starting-point-node-id=223%3A4099&mode=design&t=mJik4WiQsfvnt1KR-1"><button class="btn">Clickable Prototype</button></a>
+        <a href="https://www.figma.com/file/8aFo4yIY6J8tV0dc76czzc/Travel-App?type=design&node-id=223%3A4099&mode=design&t=Rgj6BGu2Re6EKQSk-1"><button class="btn">Figma File</button></a>
+        <a href="https://docs.google.com/presentation/d/1E5j59Dexg7gsmz9a-h6ZmbnGptbxOFDgS5yADBmzjJ0/edit?usp=sharing"><button class="btn">Case Study Presentation</button></a>
+      </div>
+    </div>
+    <div class="col">
+    <img src="images/unnamed.gif" alt="Prototype images">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
